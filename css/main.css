@@ -485,28 +485,10 @@ body {
     transform: scale(1.05);
 }
 
-.project-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(37, 99, 235, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
 .project-card:hover .project-overlay {
     opacity: 1;
 }
 
-.project-links {
-    display: flex;
-    gap: 1rem;
-}
 
 .project-link {
     display: flex;
@@ -611,7 +593,7 @@ body {
     color: #2563eb;
 }
 
-.social-links {
+/* .social-links {
     display: flex;
     gap: 1rem;
 }
@@ -632,7 +614,7 @@ body {
 .social-links a:hover {
     background: #1d4ed8;
     transform: translateY(-3px);
-}
+} */
 
 .contact-form {
     background: gray;
