@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        padding: 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .about {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}

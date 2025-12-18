@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Student Portfolio - Web Development, Programming, and Tech Solutions">
+    <meta name="keywords" content="IT student, web development, programming, portfolio, tech solutions">
+    <meta name="author" content="Kathleen Mae Nicolas">
+    <title>Kathleen Mae Nicolas - IT Student Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Kathleen Mae Nicolas</span></h1>
+                    <h2 class="hero-subtitle">IT Student & Project Leader</h2>
+                    <p class="hero-description">
+                        Looking for an opportunity to apply my technical skills, gain hands-on experience, and grow as an IT professional. Eagerto contribute to a collaborative team and support organizational goals through continuous learning and development.
+                        Motivated to take on new challenges and deliver meaningful results in a dynamic work environment. Passionate about
+                        using technology to solve real-world problems and create impactful solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/NICOLAS - formalPicture.png" alt="Your Name - IT Student" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Journey in IT</h3>
+                    <p>
+                        As an IT student with a passion for project leadership and team collaboration, I focus on bridging the gap between technical teams and business objectives. While I continue to develop my technical skills, my strength lies in coordinating projects, managing timelines, and ensuring successful delivery of IT solutions. I'm eager to apply my leadership abilities and growing technical knowledge in a dynamic professional environment.
+                    </p>
+                    <h3>What I Specialize In</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Project Leadership</h4>
+                            <p>Team Coordination, Project Management, Quality Assurance</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Technical Foundation</h4>
+                            <p>HTML, CSS, PHP, MySQL, Bootstrap</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i>
+                            <h4>Productivity Tools</h4>
+                            <p>Microsoft Office, Google Workspace, Documentation</p>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="assets/Nicolas - CV.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://yotadesigns.com/wp-content/uploads/2015/06/About-me.png" alt="About Me" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://img.freepik.com/premium-vector/website-template-design-with-tools_188544-2284.jpg" alt="E-Commerce Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/kemmyxz" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Team Project Coordination</h3>
+                        <p>Led and coordinated multiple IT projects, managing timelines, resources, and team communications to ensure successful delivery.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Project Management</span>
+                            <span class="tech-tag">Team Leadership</span>
+                            <span class="tech-tag">Documentation</span>
+                        </div>
+                        <div class="project-role">
+                            <strong>Role:</strong> Project Leader & Coordinator
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://www.sorryonmute.com/wp-content/uploads/2022/05/Productivity.png" alt="Productivity App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Office Productivity Solutions</h3>
+                        <p>Implemented and optimized office workflows using Microsoft Office and Google Workspace tools to improve team productivity and efficiency.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Microsoft Office</span>    
+                            <span class="tech-tag">Google Workspace</span>
+                            <span class="tech-tag">Process Optimization</span>
+                        </div>
+                        <div class="project-role">
+                            <strong>Role:</strong> Productivity Specialist & Process Coordinator
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://external-preview.redd.it/bgbJHaCpiNC0kx8a7s3854ORu3RuImN1DSt-ZZM0kQ8.jpg?auto=webp&s=556d1cbeb6b12d1301add0abc6546643ee81f743" alt="Website Development">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/kemmyxz" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Website Development</h3>
+                        <p>Created responsive and user-friendly websites using modern web technologies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PhpMyAdmin</span>
+                        </div>
+                        <div class="project-role">
+                            <strong>Role:</strong> Website Quality Assurance Tester & Project Manager
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaboration, or just having a tech chat!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:nicolaskathleenmae292024@gmail.com">nicolaskathleenmae292024@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                                <span>+63 931 873 4292</span>
+                            </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Valenzuela City, Philippines</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/kem-entic-b4aa1b297" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/kemmyxz" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="reply_to" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    <div id="form-status" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kathleen Mae Nicolas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
