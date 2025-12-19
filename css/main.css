@@ -444,7 +444,7 @@ body {
 }
 
 /* Projects Section */
-.projects {
+/* .projects {
     padding: 100px 0;
     background: #000000;
 }
@@ -540,12 +540,12 @@ body {
 .project-role {
     color: black;
     font-size: 0.9rem;
-}
+} */
 
 /* Contact Section */
 .contact {
     padding: 100px 0;
-    background: #696e71;
+    background: black;
     color: white;
 }
 
